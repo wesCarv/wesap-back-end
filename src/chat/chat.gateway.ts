@@ -19,7 +19,7 @@ import { Socket, Server } from 'socket.io';
 
 @WebSocketGateway({
   cors: {
-    origin: 'http://localhost:3000',
+    origin: 'https://wesap.vercel.app/',
     methods: ['GET', 'POST'],
     allowedHeaders: 'Authorization, Content-Type',
     credentials: true,
