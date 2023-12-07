@@ -19,7 +19,7 @@ import { Socket, Server } from 'socket.io';
 
 @WebSocketGateway({
   cors: {
-    origin: 'https://wesap.vercel.app/',
+    origin: 'https://wesap.vercel.app',
     methods: ['GET', 'POST'],
     allowedHeaders: 'Authorization, Content-Type',
     credentials: true,
